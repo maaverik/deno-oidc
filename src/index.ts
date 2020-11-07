@@ -3,7 +3,7 @@ import { renderFileToString } from 'https://deno.land/x/dejs@0.7.0/mod.ts';
 import { join, dirname } from 'https://deno.land/x/opine@main/deps.ts';
 
 import { ensureAuthenticated } from './middleware/authmiddleware.ts';
-import users from './controllers/usercontroller.ts';
+import users from './controllers/userController.ts';
 import auth from './controllers/authcontroller.ts';
 
 const app = opine();    // web server
