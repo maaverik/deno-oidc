@@ -6,5 +6,7 @@ Run this by using this command
 deno run -A index.ts
 ```
 
+The only dependency is deno itself. So install deno by going through https://deno.land/#installation. The other required dependencies are taken care by deno itself on running the app.
+
 # Acknowledgements
 https://scotch.io/tutorials/build-your-first-deno-app-with-authentication
